@@ -114,6 +114,7 @@ CREATE TABLE "trigger" (
     project_code nvarchar(256),
     s_status nvarchar(256),
     process nvarchar(256),
+    process data(256),
     CONSTRAINT "trigger_code_idx" UNIQUE (code)
 );
 
